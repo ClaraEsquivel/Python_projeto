@@ -1,5 +1,5 @@
-from models.enums.sexo import Sexo
-from models.endereço import Endereco
+from atividade1.models.enums.sexo import Sexo
+from atividade1.models.endereço import Endereco
 
 class Pessoa:
     def __init__(self, nome:str, idade:int, sexo:Sexo, endereco:Endereco) -> None:
